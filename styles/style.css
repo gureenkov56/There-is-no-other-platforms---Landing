@@ -110,7 +110,6 @@ input::-moz-focus-inner {
 
 #contentInSecondBlock {
   width: 45%;
-  height: 40vh;
   margin: auto;
   margin-top: 10vh;
 }
@@ -119,4 +118,14 @@ input::-moz-focus-inner {
   background: url(../images/redTriangle.png) no-repeat bottom left;
   width: 35%;
   height: 90vh;
+}
+
+@media screen and (max-width: 955px) {
+  #imageInSecondBlock {
+    display: none;
+  }
+
+  #contentInSecondBlock {
+    width: 90%;
+  }
 }
