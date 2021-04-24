@@ -1,76 +1,122 @@
-body, h1, h2, h3, h4, h5, h6{
-    margin: 0;
-    padding: 0;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
-#first{
-    width: 100%;
-    height: 110vh;
-    background: #fac url(../images/first-bgc.jpg) no-repeat top;
-    background-size: cover;
-    text-align: center;
+@font-face {
+  font-family: Exo-thin;
+  src: url(fonts/Exo-Thin.ttf);
 }
 
-h1{
-    padding-top: 22vh;
-    font-family: Exo-thin;
-    font-size: 7vh;
-    color: #282828;
-    max-width: 570px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 100;
+@font-face {
+  font-family: Exo-regular;
+  src: url(fonts/Exo-Regular.ttf);
 }
 
-#playVideoBtn{
-    margin-top: 6vh;
-    background: url(../images/PlayVideoIcon.png) no-repeat top;
-    width: 70px;
-    height: 70px;
-    box-shadow: none;
-    border: none;
+@font-face {
+  font-family: Exo-Medium;
+  src: url("fonts/Exo-Medium.ttf");
 }
 
-input:focus {
-    outline: none;                  /*убирает обводку от бразуера*/
-    cursor: pointer;
+.redTitle {
+  color: #ff6d6d;
+  font-family: Exo-Medium;
+  font-size: 3vh;
+}
+
+h2 {
+  color: #282828;
+  font-size: 6vh;
+  font-family: Exo-Medium;
+  font-weight: lighter;
+}
+
+.text {
+  font-family: Exo-Medium;
+  font-weight: lighter;
+  font-size: 3vh;
+  padding-top: 1vh;
+  color: #282828;
+}
+
+#first {
+  width: 100%;
+  height: 110vh;
+  background: lightgrey url(../images/first-bgc.jpg) no-repeat top;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 22vh;
+  font-family: Exo-thin;
+  font-size: 7vh;
+  color: #282828;
+  max-width: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+}
+
+#playVideoBtn {
+  margin-top: 6vh;
+  background: url(../images/PlayVideoIcon.png) no-repeat top;
+  width: 70px;
+  height: 70px;
+  box-shadow: none;
+  border: none;
+}
+
+input:focus,
+input:hover {
+  outline: none; /*убирает обводку от бразуера*/
+  cursor: pointer;
 }
 
 input:active,
 input::-moz-focus-inner {
-    border: 0;                      /*убирает обводку от бразуера*/
+  border: 0; /*убирает обводку от бразуера*/
 }
 
-#tryNowBtn{
-    margin-top: 3vh;
-    width: 195px;
-    height: 50px;
-    border-radius: 6px;
-    background-color: #ff6d6d;
-    border: none;
-    font-family: Exo-regular;
-    color: white;
-    font-size: 16px;
-    letter-spacing: 2px;
+#tryNowBtn {
+  margin-top: 3vh;
+  width: 195px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #ff6d6d;
+  border: none;
+  font-family: Exo-regular;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 2px;
 }
 
-#noDetails{
-    margin-top: 2vh;
-    font-family: Exo-regular;
-    color: #282828;
-    font-size: 12px;
+#noDetails {
+  margin-top: 2vh;
+  font-family: Exo-regular;
+  color: #282828;
+  font-size: 12px;
 }
 
-
-
-
-@font-face{
-    font-family: Exo-thin;
-    src: url(fonts/Exo-Thin.ttf);
+#containerInSecond {
+  display: flex;
 }
 
-@font-face{
-    font-family: Exo-regular;
-    src: url(fonts/Exo-Regular.ttf);
+#contentInSecondBlock {
+  width: 45%;
+  height: 40vh;
+  margin: auto;
+  margin-top: 10vh;
 }
 
+#imageInSecondBlock {
+  background: url(../images/redTriangle.png) no-repeat bottom left;
+  width: 35%;
+  height: 90vh;
+}
