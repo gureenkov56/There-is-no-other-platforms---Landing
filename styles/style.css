@@ -28,6 +28,7 @@ h6 {
   color: #ff6d6d;
   font-family: Exo-Medium;
   font-size: 3vh;
+  margin: 0;
 }
 
 h2 {
@@ -119,6 +120,56 @@ input::-moz-focus-inner {
   width: 35%;
   height: 90vh;
 }
+
+#third{
+    background-color: #f6f5f3;
+    height: 90vh;
+    position: relative;
+}
+
+.penholder{
+  position: absolute;
+  top: -10vh;
+  z-index: 2;
+}
+
+.earphones{
+  position: absolute;
+  top: -10vh;
+  left: 70vw;
+}
+
+.coffeecup{
+  position: absolute;
+  top: 70vh;
+  left: 75vw;
+  z-index: 1;
+}
+
+#thirdTitle{
+  text-align: center;
+  padding-top: 18vh;
+}
+
+#featuresInThird{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.feature{
+  background-color: #fac;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 955px) {
   #imageInSecondBlock {
