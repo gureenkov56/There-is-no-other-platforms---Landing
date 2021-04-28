@@ -220,24 +220,24 @@ input::-moz-focus-inner {
   text-align: center;
 }
 
-.clientName{
+.clientName {
   color: white;
   font-family: Exo-Medium;
   font-weight: lighter;
 }
 
-.clientsReview{
+.clientsReview {
   color: #b3b3b5;
   font-style: italic;
 }
 
-#partners{
+#partners {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-#sixth{
+#sixth {
   min-height: 85vh;
   background-color: #f6f5f3;
   text-align: center;
@@ -245,18 +245,82 @@ input::-moz-focus-inner {
   overflow: hidden;
 }
 
-.textInSixth{
+.textInSixth {
   max-width: 50vw;
   margin: auto;
 }
 
-.brawser{
+.brawser {
   display: block;
   margin: auto;
 }
 
-.next{
-  background-color: black;
+#seventh {
+  background-color: #323969;
+  min-height: 50vh;
+  text-align: center;
+  padding-top: 15vh;
+}
+
+#seventh h2 {
+  color: white !important;
+  margin-bottom: 15vh;
+}
+
+.inputInSeventh {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.input {
+  border: 0;
+  margin-top: 10px;
+  padding: 10px;
+  min-width: 200px;
+  font-family: Exo-Medium;
+  color: #f6f5f3;
+  background-color: #464c77;
+}
+
+.input::-webkit-input-placeholder {
+  /* Chrome, Opera, Safari */
+  color: #f6f5f3;
+}
+
+.input::-moz-placeholder {
+  /* Firefox  */
+  color: #f6f5f3;
+}
+.input::-webkit-input-placeholder {
+  color: #f6f5f3;
+}
+.input:-ms-input-placeholder {
+  /* Internet Explorer  */
+  color: #f6f5f3;
+}
+.input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #f6f5f3;
+}
+.input::placeholder {
+  color: #f6f5f3;
+}
+
+.btnInSeventh {
+  border: 0;
+  background-color: #ff6d6d;
+  margin-top: 10px;
+  padding: 10px;
+  min-width: 220px;
+  color: white;
+}
+
+#footer{
+  min-width: 30vh;
+  background-color: #fac;
 }
 
 @media screen and (max-width: 955px) {
